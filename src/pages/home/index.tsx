@@ -1,17 +1,26 @@
 export default function Home() {
   return (
-    <section>
-      <div className="w-full flex flex-col justify-center items-start h-full">
-        <div className="flex flex-col pt-[2rem] pr-[2rem] rounded-2xl bg-[#ffffff]">
-          <h3 className="font-normal">
-            <em>Mapúa MCM</em>
-          </h3>
-          <h1>
-            <span className="text-red">College of Computer</span> <br /> &
-            <span className="text-blue">Information Science</span>
-          </h1>
-        </div>
+    <div className="relative">
+      <div className="h-screen w-screen fixed -z-10 opacity-35">
+        <img
+          className="object-cover w-full h-full"
+          src="BACKGROUND.png"
+          alt="bg"
+        />
       </div>
-    </section>
+      <section>
+        <div className="w-full flex flex-col justify-center items-start h-full">
+          <div className="flex flex-col pt-[2rem]">
+            <h3 className="font-normal">
+              <em>Mapúa MCM</em>
+            </h3>
+            <h1>
+              Empowering<span className="text-red"> Innovators</span> <br /> in
+              <span className="text-blue"> Technology <span className="text-[#1c2253]">&</span> Data</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
