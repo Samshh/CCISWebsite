@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/ui/button";
 import Card from "../../components/ui/cards";
+import { useEffect } from "react";
 
 export default function Home() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "MMCM CCIS";
+  }, []);
 
   return (
     <div>
@@ -22,8 +27,8 @@ export default function Home() {
               <em>Mapúa MCM CCIS</em>
             </h3>
             <h1>
-              Shaping Tomorrow’s <br />
-              <span className="text-red"> Innovators</span> in Technology
+              Shaping <span className="text-red">Tomorrow’s</span> <br />
+              <span className="text-blue"> Innovators</span> in Technology
             </h1>
           </div>
           <div className="flex gap-[1rem]">
@@ -44,12 +49,20 @@ export default function Home() {
       <div className="bg-[#fff] border-t-2 border-[#e7e7e7] h-full sticky top-0">
         <section className="flex-col gap-[4rem] h-full">
           <div className="flex flex-col justify-center items-center gap-[2rem]">
-            <img
-              loading="lazy"
-              src="logo.png"
-              className="h-[250px] w-auto"
-              alt="mainlogo"
-            />
+            <div className="flex justify-center items-center gap-[1rem] md:gap-[2rem]">
+              <img
+                loading="lazy"
+                src="MMCMmain.png"
+                className="h-[160px] w-auto"
+                alt="mainlogo"
+              />
+              <img
+                loading="lazy"
+                src="logo.png"
+                className="h-[150px] w-auto"
+                alt="mainlogo"
+              />
+            </div>
             <div className="max-w-[768px] text-center">
               <h3 className="text-regular font-semibold">
                 College of Computer and Information Science
@@ -69,27 +82,36 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-[2rem]">
-            <Card image="/programs/COMSCI.jpeg" title="Computer Science">
-              The Bachelor of Science in Computer Science program trains
-              students in planning, researching, and developing algorithms and
-              software for Windows, web, and mobile platforms.
-            </Card>
+          <div className="flex flex-col justify-center items-center gap-[2rem]">
+            <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-[2rem]">
+              <Card image="/programs/COMSCI.jpeg" title="Computer Science">
+                The Bachelor of Science in Computer Science program trains
+                students in planning, researching, and developing algorithms and
+                software for Windows, web, and mobile platforms.
+              </Card>
 
-            <Card
-              image="/programs/EMC.jpeg"
-              title="Entertainment & Multimedia Computing"
+              <Card
+                image="/programs/EMC.jpeg"
+                title="Entertainment & Multimedia Computing"
+              >
+                The Bachelor of Science in Entertainment and Multimedia
+                Computing with a focus on Game Development equips students to
+                design, develop, and manage digital games.
+              </Card>
+
+              <Card image="/programs/IS.jpeg" title="Information Systems">
+                The Bachelor of Science in Information Systems program prepares
+                students to be IT professionals and experts in designing and
+                implementing Information Systems for business processes.
+              </Card>
+            </div>
+            <Button
+              className="!px-[6rem]"
+              type="regular"
+              onClick={() => navigate("/programs")}
             >
-              The Bachelor of Science in Entertainment and Multimedia Computing
-              with a focus on Game Development equips students to design,
-              develop, and manage digital games.
-            </Card>
-
-            <Card image="/programs/IS.jpeg" title="Information Systems">
-              The Bachelor of Science in Information Systems program prepares
-              students to be IT professionals and experts in designing and
-              implementing Information Systems for business processes.
-            </Card>
+              Learn more
+            </Button>
           </div>
         </section>
       </div>
