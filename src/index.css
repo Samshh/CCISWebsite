@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0;
+    box-sizing: border-box;
+  }
+
+  section {
+    @apply flex flex-col justify-center items-center max-w-[1280px] mx-auto p-[1rem] h-screen;
+  }
+
+  body {
+    @apply bg-[#fff] text-[#1c2253];
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1 {
+    @apply font-bold text-[2.5rem] md:text-[3rem] leading-tight;
+  }
+
+  h2 {
+    @apply font-semibold text-[2rem] md:text-[2.5rem] leading-tight;
+  }
+
+  h3 {
+    @apply font-normal text-[1.5rem] md:text-[2rem];
+  }
+
+  p {
+    @apply text-[0.85rem] md:text-[1.25rem];
+  }
+}
+
+:root {
+  --color-blue: #114b9f;
+  --color-red: #e50019;
+}
