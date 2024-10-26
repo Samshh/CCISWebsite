@@ -9,11 +9,11 @@
   }
 
   section {
-    @apply flex flex-col justify-center items-center max-w-[1280px] mx-auto p-[1rem] h-screen;
+    @apply flex justify-center items-center max-w-[1280px] mx-auto py-[10rem] px-[1rem] h-screen;
   }
 
   body {
-    @apply bg-[#fff] text-[#1c2253] relative select-none;
+    @apply bg-[#fff] text-[#000000] relative select-none;
     font-family: "Poppins", sans-serif;
   }
 
@@ -54,4 +54,6 @@
 :root {
   --color-blue: #114b9f;
   --color-red: #e50019;
+  --color-regular: #1c2253;
+  --color-border: #e7e7e7;
 }

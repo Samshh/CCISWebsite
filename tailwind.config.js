@@ -6,6 +6,8 @@ module.exports = {
     colors: {
       red: "var(--color-red)",
       blue: "var(--color-blue)",
+      regular: "var(--color-regular)",
+      border: "var(--color-border)",
     }
   },
   plugins: [],
