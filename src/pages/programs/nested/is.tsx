@@ -13,13 +13,15 @@ export default function Is() {
         alt="bg"
       />
       <section className="h-auto sticky top-0">
-        <h1 className="text-[#fff] text-center uppercase">
+        <h1 className="text-[#fff] text-center uppercase special-text">
           Information Systems
         </h1>
       </section>
       <div className="h-auto sticky top-0 bg-[#fff]">
         <section className="h-auto justify-start flex-col gap-[1.5rem] max-w-[768px]">
-          <h1 className="text-regular font-semibold uppercase">About</h1>
+          <h1 className="text-regular font-semibold uppercase special-text">
+            About
+          </h1>
           <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
             <p>
               The Bachelor of Science in Information Systems program prepares
@@ -39,7 +41,7 @@ export default function Is() {
         </section>
         <div className="bg-[#f1f1f1]">
           <section className="h-auto justify-start flex-col gap-[1.5rem] max-w-[768px]">
-            <h1 className="text-regular font-semibold uppercase">
+            <h1 className="text-regular font-semibold uppercase special-text">
               Educational Objectives
             </h1>
             <div className="flex flex-col text-justify font-medium gap-[1rem]">
@@ -60,7 +62,7 @@ export default function Is() {
                 responsibilities change.
               </p>
             </div>
-            <h1 className="text-regular font-semibold uppercase">
+            <h1 className="text-regular font-semibold uppercase special-text">
               Program Outcomes
             </h1>
             <div className="flex flex-col text-justify font-medium gap-[1rem]">

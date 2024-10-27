@@ -17,14 +17,14 @@ export default function Programs() {
         alt="bg"
       />
       <section className="h-auto sticky top-0">
-        <h1 className="text-[#fff] uppercase">Programs</h1>
+        <h1 className="text-[#fff] uppercase special-text">Programs</h1>
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto">
           <div className="grid grid-rows-3 grid-cols-1 gap-[3rem]">
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
-                className="w-[350px] rounded-md shadow-lg"
+                className="w-[350px] shadow-lg"
                 src="/programs/COMSCI.jpeg"
                 alt="cs"
               />
@@ -49,7 +49,7 @@ export default function Programs() {
             </div>
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
-                className="w-[350px] rounded-md shadow-lg"
+                className="w-[350px] shadow-lg"
                 src="/programs/EMC.jpeg"
                 alt="cs"
               />
@@ -74,7 +74,7 @@ export default function Programs() {
             </div>
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
-                className="w-[350px] rounded-md shadow-lg"
+                className="w-[350px] shadow-lg"
                 src="/programs/IS.jpeg"
                 alt="cs"
               />

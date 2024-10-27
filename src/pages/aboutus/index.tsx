@@ -20,11 +20,11 @@ export default function AboutUs() {
             className="h-[174px] w-auto"
             alt="mainlogo"
           />
-          <div className="text-[#fff] max-w-[768px] text-center md:text-start">
-            <h3 className="font-semibold">
+          <div className="text-[#fff] text-center md:text-start">
+            <h3 className="font-semibold special-text">
               College of Computer and Information Science
             </h3>
-            <p>
+            <p className="max-w-[768px]">
               The College of Computer and Information Science (CCIS) designed
               its curricula to produce IT professionals who embody creative,
               technical, and analytical faculties and shall utilize the same for
@@ -38,7 +38,7 @@ export default function AboutUs() {
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto justify-center flex-col gap-[1.5rem]">
-          <h1 className="text-regular font-semibold uppercase">
+          <h1 className="text-regular font-semibold special-text">
             Meet the Team
           </h1>
           <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem]">
@@ -114,19 +114,19 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
               <div className="flex flex-col justify-between items-center h-full gap-[2rem]">
                 <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold">Vision</h3>
+                  <h3 className="text-regular font-semibold special-text">Vision</h3>
                   <p>
                     Mapúa Malayan Colleges Mindanao stands among the world's
                     leading educational institutions.
                   </p>
                 </div>
                 <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold">Motto</h3>
+                  <h3 className="text-regular font-semibold special-text">Motto</h3>
                   <p>Excellence and Relevance</p>
                 </div>
               </div>
               <div className="flex flex-col w-full h-full justify-start text-justify items-center gap-[1rem]">
-                <h3 className="text-regular text-center font-semibold">Mission</h3>
+                <h3 className="text-regular text-center font-semibold special-text">Mission</h3>
                 <p>
                   1. The institute shall provide a learning environment in order
                   for its students to acquire the attributes that will make them

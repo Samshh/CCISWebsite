@@ -14,19 +14,19 @@ export default function Home() {
     <div className="relative">
       <img
         loading="lazy"
-        className="object-cover h-screen w-full absolute -z-10 opacity-35"
-        src="/BACKGROUND.png"
+        className="object-cover h-screen w-full absolute"
+        src="/redbg.png"
         alt="bg"
       />
-      <section className="sticky top-0">
+      <section className="h-auto sticky top-0">
         <div className="w-full flex flex-col justify-center items-start h-full gap-[1.5rem]">
-          <div className="flex flex-col pt-[2rem] text-start text-regular">
-            <h3 className="font-normal">
-              <em>Mapúa MCM CCIS</em>
+          <div className="flex flex-col pt-[2rem] text-start text-[#fff] special-text">
+            <h3 className="font-medium uppercase">
+              Mapúa MCM
             </h3>
             <h1>
-              Shaping <span className="text-red">Tomorrow’s</span> <br />
-              <span className="text-blue"> Innovators</span> in Technology
+              Shaping Tomorrow’s <br />
+              Innovators in Technology
             </h1>
           </div>
           <div className="flex gap-[1rem]">
@@ -61,11 +61,11 @@ export default function Home() {
                 alt="mainlogo"
               />
             </div>
-            <div className="max-w-[768px] text-center">
-              <h3 className="text-regular font-semibold">
+            <div className="text-center flex flex-col items-center justify-center">
+              <h3 className="text-regular font-semibold special-text">
                 College of Computer and Information Science
               </h3>
-              <p>
+              <p className="max-w-[768px]">
                 The College of Computer and Information Science (CCIS) designed
                 its curricula to produce IT professionals who embody creative,
                 technical, and analytical faculties and shall utilize the same

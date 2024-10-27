@@ -21,7 +21,7 @@ export default function Button({
     <button
       onClick={onClick}
       type="button"
-      className={`py-[0.5rem] px-[2rem] ${typeToBgColor[type]} flex justify-center items-center text-[#fff] w-fit hover:scale-105 transition-all ease-linear rounded-md shadow-md ${className}`}
+      className={`py-[0.5rem] px-[2rem] ${typeToBgColor[type]} flex justify-center items-center text-[#fff] w-fit hover:scale-105 transition-all ease-linear shadow-md ${className}`}
     >
       <p className="uppercase font-medium">{children}</p>
     </button>

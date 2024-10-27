@@ -17,6 +17,10 @@
     font-family: "Poppins", sans-serif;
   }
 
+  .special-text {
+    font-family: "Cinzel", serif;
+  }
+
   h1 {
     @apply font-bold text-[2.5rem] md:text-[3rem] leading-tight;
   }

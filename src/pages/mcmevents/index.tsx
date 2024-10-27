@@ -17,12 +17,12 @@ export default function Events() {
         alt="bg"
       />
       <section className="h-auto sticky top-0">
-        <h1 className="text-[#fff] uppercase">Events</h1>
+        <h1 className="text-[#fff] uppercase special-text">Events</h1>
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="justify-center flex-col gap-[1.5rem]">
           <h2>
-            <em className="text-regular">No events currently</em>
+            <em className="text-regular special-text">No events currently</em>
           </h2>
           <Button onClick={() => navigate("/")} type="red">
             Back to Home
