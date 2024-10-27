@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="bg-[#fff] border-t-2 border-[#e7e7e7] h-full sticky top-0">
+      <div className="bg-[#fff] h-full sticky top-0">
         <section className="flex-col gap-[4rem] h-full">
           <div className="flex flex-col justify-center items-center gap-[2rem]">
             <div className="flex justify-center items-center gap-[1rem] md:gap-[2rem]">
