@@ -20,7 +20,7 @@ export default function Home() {
       />
       <section className="sticky top-0">
         <div className="w-full flex flex-col justify-center items-start h-full gap-[1.5rem]">
-          <div className="flex flex-col pt-[2rem] text-regular">
+          <div className="flex flex-col pt-[2rem] text-start text-regular">
             <h3 className="font-normal">
               <em>Mapúa MCM CCIS</em>
             </h3>

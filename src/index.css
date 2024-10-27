@@ -9,7 +9,7 @@
   }
 
   section {
-    @apply flex justify-center items-center max-w-[1280px] mx-auto py-[10rem] px-[1rem] h-screen;
+    @apply flex justify-center text-center items-center max-w-[1280px] mx-auto py-[10rem] px-[1rem] h-screen;
   }
 
   body {
