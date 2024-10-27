@@ -82,13 +82,18 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-center items-center gap-[2rem]">
             <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-[2rem]">
-              <Card image="/programs/COMSCI.jpeg" title="Computer Science">
+              <Card
+                onClick={() => navigate("/programs/cs")}
+                image="/programs/COMSCI.jpeg"
+                title="Computer Science"
+              >
                 The Bachelor of Science in Computer Science program trains
                 students in planning, researching, and developing algorithms and
                 software for Windows, web, and mobile platforms.
               </Card>
 
               <Card
+                onClick={() => navigate("/programs/emc")}
                 image="/programs/EMC.jpeg"
                 title="Entertainment & Multimedia Computing"
               >
@@ -97,19 +102,16 @@ export default function Home() {
                 design, develop, and manage digital games.
               </Card>
 
-              <Card image="/programs/IS.jpeg" title="Information Systems">
+              <Card
+                onClick={() => navigate("/programs/is")}
+                image="/programs/IS.jpeg"
+                title="Information Systems"
+              >
                 The Bachelor of Science in Information Systems program prepares
                 students to be IT professionals and experts in designing and
                 implementing Information Systems for business processes.
               </Card>
             </div>
-            <Button
-              className="!px-[6rem]"
-              type="red"
-              onClick={() => navigate("/programs")}
-            >
-              Learn more
-            </Button>
           </div>
         </section>
       </div>
