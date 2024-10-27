@@ -71,7 +71,7 @@ export default function Cs() {
             </h1>
             <div className="flex flex-col text-justify font-medium gap-[1rem]">
               <p className="text-center text-[#737373]">
-                Graduates of the Bachelor of Science in Science in Computer
+                Graduates of the Bachelor of Science in Science Computer
                 program are expected to demonstrate:
               </p>
               <p>
