@@ -125,8 +125,8 @@ export default function AboutUs() {
                   <p>Excellence and Relevance</p>
                 </div>
               </div>
-              <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                <h3 className="text-regular font-semibold">Mission</h3>
+              <div className="flex flex-col w-full h-full justify-start text-justify items-center gap-[1rem]">
+                <h3 className="text-regular text-center font-semibold">Mission</h3>
                 <p>
                   1. The institute shall provide a learning environment in order
                   for its students to acquire the attributes that will make them
