@@ -1,6 +1,9 @@
 import { useEffect } from "react";
+import Button from "../../components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 export default function Events() {
+  const navigate = useNavigate();
 
   useEffect(() => {
     document.title = "Events | MMCM CCIS";
@@ -18,7 +21,12 @@ export default function Events() {
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="justify-center flex-col gap-[1.5rem]">
-          <h1><em className="text-border">No events currently</em></h1>
+          <h2>
+            <em className="text-regular">No events currently</em>
+          </h2>
+          <Button onClick={() => navigate("/")} type="red">
+            Back to Home
+          </Button>
         </section>
       </div>
     </div>
