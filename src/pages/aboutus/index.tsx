@@ -9,14 +9,14 @@ export default function AboutUs() {
       <img
         loading="lazy"
         className="object-cover w-full h-screen absolute"
-        src="redbg.png"
+        src="/redbg.png"
         alt="bg"
       />
       <section className="flex-col gap-[5rem] h-auto sticky top-0">
         <div className="flex flex-col md:flex-row justify-center items-center gap-[2rem]">
           <img
             loading="lazy"
-            src="logo.png"
+            src="/logo.png"
             className="h-[174px] w-auto"
             alt="mainlogo"
           />
@@ -38,11 +38,13 @@ export default function AboutUs() {
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto justify-center flex-col gap-[1.5rem]">
-          <h1 className="text-regular font-semibold uppercase">Meet the Team</h1>
+          <h1 className="text-regular font-semibold uppercase">
+            Meet the Team
+          </h1>
           <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem]">
             <img
               className="h-[345px] w-auto rounded-md shadow-lg"
-              src="dean.jpeg"
+              src="/dean.jpeg"
               alt="dada"
             />
             <div>

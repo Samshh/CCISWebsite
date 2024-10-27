@@ -29,6 +29,10 @@
     @apply font-normal text-[1.5rem] md:text-[2rem];
   }
 
+  h4 {
+    @apply font-normal text-[1.25rem] md:text-[1.5rem];
+  }
+
   p {
     @apply text-[0.85rem] md:text-[1rem];
   }

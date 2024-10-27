@@ -18,7 +18,7 @@ export default function Footer() {
             title="mcm"
             className="hover:scale-110 transition-all ease-linear"
           >
-            <img className="h-[150px]" src="MMCMLogo.png" alt="mmcm" />
+            <img className="h-[150px]" src="/MMCMLogo.png" alt="mmcm" />
           </a>
         </div>
       </div>

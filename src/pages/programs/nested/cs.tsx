@@ -1,10 +1,4 @@
-import { useEffect } from "react";
-
-export default function Events() {
-
-  useEffect(() => {
-    document.title = "Events | MMCM CCIS";
-  }, []);
+export default function Cs() {
   return (
     <div className="relative">
       <img
@@ -14,11 +8,11 @@ export default function Events() {
         alt="bg"
       />
       <section className="h-auto sticky top-0">
-        <h1 className="text-[#fff] uppercase">Events</h1>
+        <h1 className="text-[#fff] text-center uppercase">Computer Science</h1>
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="justify-center flex-col gap-[1.5rem]">
-          <h1><em className="text-border">No events currently</em></h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quam reiciendis id explicabo ipsum dignissimos nobis totam nisi magnam, dicta officia cum saepe enim laboriosam iste excepturi dolore voluptatibus sapiente?
         </section>
       </div>
     </div>

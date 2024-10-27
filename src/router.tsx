@@ -4,6 +4,9 @@ import Home from "./pages/home";
 import AboutUs from "./pages/aboutus";
 import Programs from "./pages/programs";
 import Events from "./pages/mcmevents";
+import Cs from "./pages/programs/nested/cs";
+import Emc from "./pages/programs/nested/emc";
+import Is from "./pages/programs/nested/is";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +23,24 @@ const router = createBrowserRouter([
       },
       {
         path: "programs",
-        element: <Programs />
+        children: [
+          {
+            index: true,
+            element: <Programs />
+          },
+          {
+            path: "cs",
+            element: <Cs />,
+          },
+          {
+            path: "emc",
+            element: <Emc />,
+          },
+          {
+            path: "is",
+            element: <Is />,
+          }
+        ]
       },
       {
         path: "events",

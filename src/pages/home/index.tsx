@@ -15,7 +15,7 @@ export default function Home() {
       <img
         loading="lazy"
         className="object-cover h-screen w-full absolute -z-10 opacity-35"
-        src="BACKGROUND.png"
+        src="/BACKGROUND.png"
         alt="bg"
       />
       <section className="sticky top-0">
@@ -50,13 +50,13 @@ export default function Home() {
             <div className="flex justify-center items-center gap-[1rem] md:gap-[2rem]">
               <img
                 loading="lazy"
-                src="MMCMmain.png"
+                src="/MMCMmain.png"
                 className="h-[160px] w-auto"
                 alt="mainlogo"
               />
               <img
                 loading="lazy"
-                src="logo.png"
+                src="/logo.png"
                 className="h-[150px] w-auto mr-[1rem]"
                 alt="mainlogo"
               />
