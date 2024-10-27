@@ -6,7 +6,11 @@ export default function AboutUs() {
   }, []);
   return (
     <div className="relative">
-      <img className="opacity-20 w-screen h-auto absolute top-0" src="aboutbanner.png" alt="aboutbanner" />
+      <img
+        className="opacity-20 w-auto h-1/2 absolute top-0 object-cover"
+        src="aboutbanner.png"
+        alt="aboutbanner"
+      />
       <section className="flex-col gap-[5rem] h-auto sticky top-0">
         <div className="flex flex-col md:flex-row justify-center items-center gap-[2rem]">
           <img
@@ -32,9 +36,73 @@ export default function AboutUs() {
         </div>
       </section>
       <div className="sticky top-0 bg-[#fff]">
-        <section className="h-auto justify-start">
-          <h3 className="text-regular font-semibold">Meet the Team</h3>
-          <div className="flex"></div>
+        <section className="h-auto justify-center flex-col gap-[1.5rem]">
+          <h2 className="text-regular font-semibold">Meet the Team</h2>
+          <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem]">
+            <img
+              className="h-[345px] w-auto rounded-md"
+              src="dean.jpeg"
+              alt="dada"
+            />
+            <div>
+              <p className="text-regular">
+                Rhodessa <em>"Dada"</em> J. Cascaro
+              </p>
+              <p className="text-blue uppercase font-medium">Dean</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 gap-[1rem] md:gap-[1.5rem]">
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Neil P. Magloyuan</p>
+              <p className="text-blue uppercase font-medium">CS Program Head</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Genevieve A. Pilongo</p>
+              <p className="text-blue uppercase font-medium">IS Program Head</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Rogelio O. Badiang Jr. </p>
+              <p className="text-blue uppercase font-medium">
+                EMC Program Head
+              </p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Cherry B. Lisondra</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Martzel Baste</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Christopher Josh Dellosa</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Clyde Chester R. Balaman</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Patrick D. Cerna</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Daisy Ann M. Arzaga</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Christopher Rey A. Lungay</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Mary Grace Sandoval</p>
+              <p className="text-blue uppercase font-medium">Faculty</p>
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="text-regular">Robie Bryan Jacaban</p>
+              <p className="text-blue uppercase font-medium">Technical Assistant</p>
+            </div>
+          </div>
         </section>
         <div className="bg-[#f9f9f9]">
           <section className="h-auto">
