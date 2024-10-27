@@ -41,10 +41,10 @@ export default function AboutUs() {
           <h1 className="text-regular font-semibold special-text">
             Meet the Team
           </h1>
-          <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem]">
+          <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem] mb-[1rem]">
             <img
-              className="h-[345px] w-auto rounded-md shadow-lg"
-              src="/dean.jpeg"
+              className="h-[260px] w-auto rounded-full shadow-lg"
+              src="/dean.png"
               alt="dada"
             />
             <div>
@@ -114,30 +114,39 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
               <div className="flex flex-col justify-between items-center h-full gap-[2rem]">
                 <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold special-text">Vision</h3>
+                  <h3 className="text-regular font-semibold special-text">
+                    Vision
+                  </h3>
                   <p>
                     Mapúa Malayan Colleges Mindanao stands among the world's
                     leading educational institutions.
                   </p>
                 </div>
                 <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold special-text">Motto</h3>
+                  <h3 className="text-regular font-semibold special-text">
+                    Motto
+                  </h3>
                   <p>Excellence and Relevance</p>
                 </div>
               </div>
               <div className="flex flex-col w-full h-full justify-start text-justify items-center gap-[1rem]">
-                <h3 className="text-regular text-center font-semibold special-text">Mission</h3>
+                <h3 className="text-regular text-center font-semibold special-text">
+                  Mission
+                </h3>
                 <p>
-                  1. The institute shall provide a learning environment in order
-                  for its students to acquire the attributes that will make them
-                  globally competitive & locally in-demand. <br />
+                  <span className="text-red">1.</span> The institute shall
+                  provide a learning environment in order for its students to
+                  acquire the attributes that will make them globally
+                  competitive & locally in-demand. <br />
                   <br />
-                  2. The institute shall engage in cutting edge and economically
-                  viable research, development and innovation that is relevant
-                  locally and beyond. <br />
+                  <span className="text-red">2.</span> The institute shall
+                  engage in cutting edge and economically viable research,
+                  development and innovation that is relevant locally and
+                  beyond. <br />
                   <br />
-                  3. The institute shall provide state-of-the-art solutions to
-                  problems of industries and communities locally and beyond.
+                  <span className="text-red">3.</span> The institute shall
+                  provide state-of-the-art solutions to problems of industries
+                  and communities locally and beyond.
                 </p>
               </div>
             </div>
