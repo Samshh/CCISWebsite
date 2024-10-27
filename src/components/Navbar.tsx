@@ -32,10 +32,10 @@ export default function Navbar() {
             Programs
           </p>
           <p
-            onClick={() => navigate("contact")}
+            onClick={() => navigate("events")}
             className="cursor-pointer p-[0.5rem] transition-colors ease-linear hover:text-red hover:border-b-[1px] hover:border-red"
           >
-            Contact
+            Events
           </p>
         </div>
       </div>

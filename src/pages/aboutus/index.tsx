@@ -7,9 +7,10 @@ export default function AboutUs() {
   return (
     <div className="relative">
       <img
-        className="opacity-20 w-auto h-1/2 absolute top-0 object-cover"
-        src="aboutbanner.png"
-        alt="aboutbanner"
+        loading="lazy"
+        className="object-cover w-full h-screen absolute"
+        src="redbg.png"
+        alt="bg"
       />
       <section className="flex-col gap-[5rem] h-auto sticky top-0">
         <div className="flex flex-col md:flex-row justify-center items-center gap-[2rem]">
@@ -19,8 +20,8 @@ export default function AboutUs() {
             className="h-[174px] w-auto"
             alt="mainlogo"
           />
-          <div className="max-w-[768px] text-center md:text-start">
-            <h3 className="text-regular font-semibold">
+          <div className="text-[#fff] max-w-[768px] text-center md:text-start">
+            <h3 className="font-semibold">
               College of Computer and Information Science
             </h3>
             <p>
@@ -37,10 +38,10 @@ export default function AboutUs() {
       </section>
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto justify-center flex-col gap-[1.5rem]">
-          <h2 className="text-regular font-semibold">Meet the Team</h2>
+          <h1 className="text-regular font-semibold uppercase">Meet the Team</h1>
           <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem]">
             <img
-              className="h-[345px] w-auto rounded-md"
+              className="h-[345px] w-auto rounded-md shadow-lg"
               src="dean.jpeg"
               alt="dada"
             />
@@ -51,7 +52,7 @@ export default function AboutUs() {
               <p className="text-blue uppercase font-medium">Dean</p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-[1rem] md:gap-[1.5rem]">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-[1rem] md:gap-[1.5rem]">
             <div className="flex flex-col justify-center items-center text-center">
               <p className="text-regular">Neil P. Magloyuan</p>
               <p className="text-blue uppercase font-medium">CS Program Head</p>
@@ -100,7 +101,9 @@ export default function AboutUs() {
             </div>
             <div className="flex flex-col justify-center items-center text-center">
               <p className="text-regular">Robie Bryan Jacaban</p>
-              <p className="text-blue uppercase font-medium">Technical Assistant</p>
+              <p className="text-blue uppercase font-medium">
+                Technical Assistant
+              </p>
             </div>
           </div>
         </section>

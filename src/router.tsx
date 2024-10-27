@@ -3,7 +3,7 @@ import MainLayout from "./layouts";
 import Home from "./pages/home";
 import AboutUs from "./pages/aboutus";
 import Programs from "./pages/programs";
-import ContactUs from "./pages/contactus";
+import Events from "./pages/mcmevents";
 
 const router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <Programs />
       },
       {
-        path: "contact",
-        element: <ContactUs />
+        path: "events",
+        element: <Events />
       }
     ]
   },

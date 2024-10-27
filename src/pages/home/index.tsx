@@ -11,15 +11,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <div className="h-screen w-screen fixed -z-10 opacity-35">
-        <img
-          loading="lazy"
-          className="object-cover w-full h-full"
-          src="BACKGROUND.png"
-          alt="bg"
-        />
-      </div>
+    <div className="relative">
+      <img
+        loading="lazy"
+        className="object-cover h-screen w-full absolute -z-10 opacity-35"
+        src="BACKGROUND.png"
+        alt="bg"
+      />
       <section className="sticky top-0">
         <div className="w-full flex flex-col justify-center items-start h-full gap-[1.5rem]">
           <div className="flex flex-col pt-[2rem] text-regular">
@@ -59,7 +57,7 @@ export default function Home() {
               <img
                 loading="lazy"
                 src="logo.png"
-                className="h-[150px] w-auto"
+                className="h-[150px] w-auto mr-[1rem]"
                 alt="mainlogo"
               />
             </div>
@@ -107,7 +105,7 @@ export default function Home() {
             </div>
             <Button
               className="!px-[6rem]"
-              type="regular"
+              type="red"
               onClick={() => navigate("/programs")}
             >
               Learn more
