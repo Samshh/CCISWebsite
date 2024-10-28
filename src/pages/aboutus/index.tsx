@@ -40,7 +40,7 @@ export default function AboutUs() {
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto justify-center flex-col gap-[1.75rem]">
           <h1 className="text-regular font-semibold special-text">
-            Meet the <span className="text-red">Team</span>
+            Meet the Team
           </h1>
           <div className="flex flex-col text-center justify-center items-center py-[3rem] gap-[1rem] ">
             <img
