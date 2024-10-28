@@ -8,7 +8,7 @@ export default function MeetTheTeam() {
           <h4 className="text-regular">{member.name}</h4>
           <p className="text-regular">{member.title}</p>
           <p className="text-[#c7c7c7] select-text">{member.email}</p>
-          <p className="text-blue uppercase font-medium">{member.position}</p>
+          <p className="text-red uppercase font-medium">{member.position}</p>
         </div>
       ))}
     </div>
