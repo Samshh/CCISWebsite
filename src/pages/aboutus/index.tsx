@@ -41,7 +41,7 @@ export default function AboutUs() {
           <h1 className="text-regular font-semibold special-text">
             Meet the Team
           </h1>
-          <div className="flex flex-col text-center justify-center items-center pt-[3rem] gap-[1rem] mb-[1.75rem]">
+          <div className="flex flex-col text-center justify-center items-center py-[3rem] gap-[1rem] ">
             <img
               className="h-[260px] w-auto rounded-full shadow-lg"
               src="/dean.png"
@@ -55,7 +55,7 @@ export default function AboutUs() {
               <p className="text-blue uppercase font-medium">Dean</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[1rem] md:gap-[2rem] lg:gap-[4rem] w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[3rem] md:gap-[2rem] lg:gap-[4rem] w-full">
             <div className="flex flex-col justify-center items-center text-center">
               <p className="text-regular">Neil P. Magloyuan</p>
               <p className="text-[#c7c7c7] select-text">npmagloyuan@mcm.edu.ph</p>
