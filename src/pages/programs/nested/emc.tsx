@@ -21,7 +21,7 @@ export default function Emc() {
         <section className="h-auto justify-start flex-col gap-[1.5rem] max-w-[768px]">
           <h1 className="text-regular font-semibold uppercase special-text">About</h1>
           <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
-            <p>
+            <p className="indent-8">
               The Bachelor of Science in Entertainment and Multimedia Computing
               specialized in Game Development program prepares students to
               become game development professionals with specialized knowledge,
@@ -36,7 +36,7 @@ export default function Emc() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Educational Objectives
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p>
                 <span className="text-red">1.</span> Articulate expertise in
                 understanding, analyzing, and applying current and emerging
@@ -57,7 +57,7 @@ export default function Emc() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Program Outcomes
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p className="text-center text-[#737373]">
                 Graduates of the Bachelor of Science in Entertainment and
                 Multimedia Computing program are expected to demonstrate:

@@ -22,7 +22,7 @@ export default function Is() {
           <h1 className="text-regular font-semibold uppercase special-text">
             About
           </h1>
-          <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
+          <div className="flex flex-col text-justify indent-8 text-regular font-medium gap-[1rem]">
             <p>
               The Bachelor of Science in Information Systems program prepares
               students to be IT professionals and the expert on design and
@@ -44,7 +44,7 @@ export default function Is() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Educational Objectives
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p>
                 <span className="text-red">1.</span> Articulate expertise in
                 understanding, analyzing, and applying current and emerging
@@ -65,7 +65,7 @@ export default function Is() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Program Outcomes
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p className="text-center text-[#737373]">
                 Graduates of the Bachelor of Science in Information Systems
                 program are expected to demonstrate:

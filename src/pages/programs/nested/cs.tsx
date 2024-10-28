@@ -22,7 +22,7 @@ export default function Cs() {
           <h1 className="text-regular font-semibold uppercase special-text">
             About
           </h1>
-          <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
+          <div className="flex flex-col text-justify indent-8 text-regular font-medium gap-[1rem]">
             <p>
               The BS Computer Science program prepares students to become
               computer scholars equipped with the complete tools in planning,
@@ -43,7 +43,7 @@ export default function Cs() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Educational Objectives
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p>
                 <span className="text-red">1.</span> Articulate expertise in
                 formulating and solving problems of interest, through the
@@ -69,7 +69,7 @@ export default function Cs() {
             <h1 className="text-regular font-semibold uppercase special-text">
               Program Outcomes
             </h1>
-            <div className="flex flex-col text-justify font-medium gap-[1rem]">
+            <div className="flex flex-col text-start font-medium gap-[1rem]">
               <p className="text-center text-[#737373]">
                 Graduates of the Bachelor of Science in Science Computer
                 program are expected to demonstrate:

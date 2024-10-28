@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </section>
       <div className="bg-[#fff] h-full sticky top-0">
-        <section className="flex-col gap-[4rem] h-full">
+        <section className="flex-col gap-[4rem] h-full px-[1rem]">
           <div className="flex flex-col justify-center items-center gap-[2rem]">
             <div className="flex justify-between items-center gap-[1rem] max-w-[580px] w-full">
               <img
@@ -57,7 +57,7 @@ export default function Home() {
               <img
                 loading="lazy"
                 src="/logo.png"
-                className="h-[150px] w-auto mr-[1rem]"
+                className="h-[150px] w-auto"
                 alt="mainlogo"
               />
             </div>

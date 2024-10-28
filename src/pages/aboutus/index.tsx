@@ -79,7 +79,7 @@ export default function AboutUs() {
                   <p>Excellence and Relevance</p>
                 </div>
               </div>
-              <div className="flex flex-col w-full h-full justify-start text-justify items-center gap-[1rem]">
+              <div className="flex flex-col w-full h-full justify-start text-start text-balance items-center gap-[1rem]">
                 <h3 className="text-regular text-center font-semibold special-text">
                   Mission
                 </h3>
