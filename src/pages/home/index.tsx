@@ -47,7 +47,7 @@ export default function Home() {
       <div className="bg-[#fff] h-full sticky top-0">
         <section className="flex-col gap-[4rem] h-full">
           <div className="flex flex-col justify-center items-center gap-[2rem]">
-            <div className="flex justify-center items-center gap-[1rem] md:gap-[2rem]">
+            <div className="flex justify-between items-center gap-[1rem] max-w-[580px] w-full">
               <img
                 loading="lazy"
                 src="/MMCMmain.png"
