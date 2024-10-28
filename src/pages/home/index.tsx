@@ -21,9 +21,7 @@ export default function Home() {
       <section className="h-auto sticky top-0">
         <div className="w-full flex flex-col justify-center items-start h-full gap-[1.5rem]">
           <div className="flex flex-col pt-[2rem] text-start text-[#fff] special-text">
-            <h3 className="font-medium uppercase">
-              Mapúa MCM
-            </h3>
+            <h3 className="font-medium uppercase">Mapúa MCM</h3>
             <h1>
               Shaping Tomorrow’s <br />
               Innovators in Technology
@@ -46,26 +44,18 @@ export default function Home() {
       </section>
       <div className="bg-[#fff] h-full sticky top-0">
         <section className="flex-col gap-[4rem] h-full px-[1rem]">
-          <div className="flex flex-col justify-center items-center gap-[2rem]">
-            <div className="flex justify-between items-center gap-[1rem] max-w-[580px] w-full">
-              <img
-                loading="lazy"
-                src="/MMCMmain.png"
-                className="h-[160px] w-auto"
-                alt="mainlogo"
-              />
-              <img
-                loading="lazy"
-                src="/logo.png"
-                className="h-[150px] w-auto"
-                alt="mainlogo"
-              />
-            </div>
+          <div className="flex flex-col justify-center items-center gap-[2rem] w-full">
+            <img
+              loading="lazy"
+              src="/logo.png"
+              className="h-[150px] md:h-[250px] w-auto"
+              alt="mainlogo"
+            />
             <div className="text-center flex flex-col items-center justify-center">
               <h3 className="text-regular font-semibold special-text">
                 College of Computer and Information Science
               </h3>
-              <p className="max-w-[768px]">
+              <p className="max-w-[768px] px-[1rem] md:px-0">
                 The College of Computer and Information Science (CCIS) designed
                 its curricula to produce IT professionals who embody creative,
                 technical, and analytical faculties and shall utilize the same
@@ -80,7 +70,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center gap-[2rem]">
+          <div className="flex flex-col justify-center items-center px-[1rem] md:px-0 gap-[2rem]">
             <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-[2rem]">
               <Card
                 onClick={() => navigate("/programs/cs")}
