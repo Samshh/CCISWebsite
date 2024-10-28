@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import MeetTheTeam from "./components/MeetTheTeam";
 
 export default function AboutUs() {
   useEffect(() => {
@@ -39,7 +40,7 @@ export default function AboutUs() {
       <div className="sticky top-0 bg-[#fff]">
         <section className="h-auto justify-center flex-col gap-[1.75rem]">
           <h1 className="text-regular font-semibold special-text">
-            Meet the Team
+            Meet the <span className="text-red">Team</span>
           </h1>
           <div className="flex flex-col text-center justify-center items-center py-[3rem] gap-[1rem] ">
             <img
@@ -48,79 +49,15 @@ export default function AboutUs() {
               alt="dada"
             />
             <div>
-              <p className="text-regular">
-                Rhodessa <em>"Dada"</em> J. Cascaro
-              </p>
+              <h4 className="text-regular">
+                Dr. Rhodessa <em>"Dada"</em> J. Cascaro
+              </h4>
+              <p className="text-red">Doctor of Information Technology</p>
               <p className="text-[#c7c7c7] select-text">rjcascaro@mcm.edu.ph</p>
               <p className="text-blue uppercase font-medium">Dean</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[3rem] md:gap-[2rem] lg:gap-[4rem] w-full">
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Neil P. Magloyuan</p>
-              <p className="text-[#c7c7c7] select-text">npmagloyuan@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">CS Program Head</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Genevieve A. Pilongo</p>
-              <p className="text-[#c7c7c7] select-text">gapilongo@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">IS Program Head</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Rogelio O. Badiang Jr.</p>
-              <p className="text-[#c7c7c7] select-text">rjobadiang@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">
-                EMC Program Head
-              </p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Cherry B. Lisondra</p>
-              <p className="text-[#c7c7c7] select-text">cblisondra@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Martzel Baste</p>
-              <p className="text-[#c7c7c7] select-text">mbaste@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Christopher Josh Dellosa</p>
-              <p className="text-[#c7c7c7] select-text">cjldellosa@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Clyde Chester R. Balaman</p>
-              <p className="text-[#c7c7c7] select-text">ccrbalaman@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Patrick D. Cerna</p>
-              <p className="text-[#c7c7c7] select-text">pdcerna@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Daisy Ann M. Arzaga</p>
-              <p className="text-[#c7c7c7] select-text">damarzaga@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Christopher Rey A. Lungay</p>
-              <p className="text-[#c7c7c7] select-text">crlungay@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Mary Grace Sandoval</p>
-              <p className="text-[#c7c7c7] select-text">mgsandoval@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">Faculty</p>
-            </div>
-            <div className="flex flex-col justify-center items-center text-center">
-              <p className="text-regular">Robie Bryan Jacaban</p>
-              <p className="text-[#c7c7c7] select-text">rbbjacaban@mcm.edu.ph</p>
-              <p className="text-blue uppercase font-medium">
-                Technical Assistant
-              </p>
-            </div>
-          </div>
+          <MeetTheTeam />
         </section>
         <div className="bg-[#f9f9f9]">
           <section className="h-auto">

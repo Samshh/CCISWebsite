@@ -1,0 +1,88 @@
+{
+  "team": [
+    {
+      "name": "Neil P. Magloyuan",
+      "title": "Master of Computer Engineering",
+      "email": "npmagloyuan@mcm.edu.ph",
+      "position": "CS Program Head",
+      "image": null
+    },
+    {
+      "name": "Dr. Genevieve A. Pilongo",
+      "title": "Doctor of Business Management",
+      "email": "gapilongo@mcm.edu.ph",
+      "position": "IS Program Head",
+      "image": null
+    },
+    {
+      "name": "Rogelio O. Badiang Jr.",
+      "title": "No title yet",
+      "email": "rjobadiang@mcm.edu.ph",
+      "position": "EMC Program Head",
+      "image": null
+    },
+    {
+      "name": "Dr. Cherry B. Lisondra",
+      "title": "Doctor of Information Technology",
+      "email": "cblisondra@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Martzel Baste",
+      "title": "Master of Information Technology, Master of Information Systems",
+      "email": "mbaste@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Christopher Josh Dellosa",
+      "title": "Master of Information Systems",
+      "email": "cjldellosa@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Clyde Chester R. Balaman",
+      "title": "No title yet",
+      "email": "ccrbalaman@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Dr. Patrick D. Cerna",
+      "title": "Doctor of Information Technology",
+      "email": "pdcerna@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Daisy Ann M. Arzaga",
+      "title": "No title yet",
+      "email": "damarzaga@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Christopher Rey A. Lungay",
+      "title": "BS Information Technology",
+      "email": "crlungay@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Mary Grace Sandoval",
+      "title": "No title yet",
+      "email": "mgsandoval@mcm.edu.ph",
+      "position": "Faculty",
+      "image": null
+    },
+    {
+      "name": "Robie Bryan Jacaban",
+      "title": "No title yet",
+      "email": "rbbjacaban@mcm.edu.ph",
+      "position": "Technical Assistant",
+      "image": null
+    }
+  ]
+}
