@@ -6,7 +6,7 @@ export default function MeetTheTeam() {
       {teamData.team.map((member) => (
         <div key={member.email} className="flex flex-col justify-center items-center text-center">
           <h4 className="text-regular">{member.name}</h4>
-          <p className="text-red">{member.title}</p>
+          <p className="text-regular">{member.title}</p>
           <p className="text-[#c7c7c7] select-text">{member.email}</p>
           <p className="text-blue uppercase font-medium">{member.position}</p>
         </div>

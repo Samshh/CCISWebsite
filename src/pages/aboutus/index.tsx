@@ -52,7 +52,7 @@ export default function AboutUs() {
               <h4 className="text-regular">
                 Dr. Rhodessa <em>"Dada"</em> J. Cascaro
               </h4>
-              <p className="text-red">Doctor of Information Technology</p>
+              <p className="text-regular">Doctor of Information Technology</p>
               <p className="text-[#c7c7c7] select-text">rjcascaro@mcm.edu.ph</p>
               <p className="text-blue uppercase font-medium">Dean</p>
             </div>
