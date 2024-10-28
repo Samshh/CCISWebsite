@@ -9,11 +9,11 @@
   }
 
   section {
-    @apply flex justify-center text-center items-center max-w-[1280px] mx-auto py-[10rem] px-[1rem] h-screen;
+    @apply flex justify-center text-center items-center max-w-[1280px] mx-auto py-[10rem] px-[2rem] lg:px-[1rem] h-screen;
   }
 
   body {
-    @apply bg-[#fff] text-[#000000] relative select-none;
+    @apply bg-[#fff] text-[#313131] relative select-none;
     font-family: "Poppins", sans-serif;
   }
 
@@ -22,23 +22,23 @@
   }
 
   h1 {
-    @apply font-bold text-[2.5rem] md:text-[3rem] leading-tight;
+    @apply font-bold text-[2.5rem] lg:text-[3rem] leading-tight;
   }
 
   h2 {
-    @apply font-semibold text-[2rem] md:text-[2.5rem] leading-tight;
+    @apply font-semibold text-[2rem] lg:text-[2.5rem] leading-tight;
   }
 
   h3 {
-    @apply font-normal text-[1.5rem] md:text-[2rem];
+    @apply font-normal text-[1.5rem] lg:text-[2rem];
   }
 
   h4 {
-    @apply font-normal text-[1.25rem] md:text-[1.5rem];
+    @apply font-normal text-[1.25rem] lg:text-[1.5rem];
   }
 
   p {
-    @apply text-[0.85rem] md:text-[1rem];
+    @apply text-[0.85rem] lg:text-[1rem];
   }
 
   ::-webkit-scrollbar {
