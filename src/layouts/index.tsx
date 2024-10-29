@@ -19,7 +19,7 @@ export default function MainLayout() {
     const tl = gsap.timeline();
     tl.to(spinnerRef.current, {
       rotate: 360,
-      duration: 0.25,
+      duration: 0.5,
       repeat: -1,
       ease: "linear",
     })
@@ -37,7 +37,7 @@ export default function MainLayout() {
         ease: "power2.inOut",
       })
       .to(contentRef.current, {
-        delay: 2,
+        delay: 0.5,
         opacity: 0,
         duration: 0.5,
         ease: "power2.inOut",
