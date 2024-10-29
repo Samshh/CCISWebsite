@@ -129,7 +129,7 @@ export default function Is() {
                 on-going professional development.
               </p>
             </div>
-            <div className="w-full flex items-center justify-between mt-[3rem] font-semibold gap-[2rem]">
+            <div className="w-full flex items-center justify-between mt-[3rem] font-semibold text-regular gap-[2rem]">
               <div
                 onClick={() => navigate("/programs/emc")}
                 className="flex items-center cursor-pointer transition-all ease-linear hover:scale-110"
