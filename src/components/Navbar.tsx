@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export default function Navbar() {
   const navigate = useNavigate();
   return (
-    <nav className="sticky top-0 bg-[#ffffff] select-none z-50 shadow-md">
+    <nav className="sticky top-0 bg-[#ffffff] select-none z-40 shadow-md">
       <div className="flex flex-col md:flex-row gap-[1rem] justify-between items-center max-w-[1280px] mx-auto p-[1rem]">
         <img
           src="/banner.png"
