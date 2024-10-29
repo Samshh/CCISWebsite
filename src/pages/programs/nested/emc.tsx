@@ -25,7 +25,7 @@ export default function Emc() {
           <h1 className="text-regular font-semibold uppercase special-text">
             About
           </h1>
-          <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
+          <div className="flex flex-col text-start text-regular font-medium gap-[1rem]">
             <p className="indent-8">
               The Bachelor of Science in Entertainment and Multimedia Computing
               specialized in Game Development program prepares students to

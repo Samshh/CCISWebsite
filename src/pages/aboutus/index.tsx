@@ -6,14 +6,14 @@ export default function AboutUs() {
     document.title = "About | MMCM CCIS";
   }, []);
   return (
-    <div className="relative">
+    <div className="md:relative">
       <img
         loading="lazy"
         className="object-cover w-full h-screen absolute"
         src="/redbg.png"
         alt="bg"
       />
-      <section className="flex-col gap-[5rem] h-auto sticky top-0">
+      <section className="flex-col gap-[5rem] h-auto relative md:sticky md:top-0">
         <div className="flex flex-col md:flex-row justify-center items-center gap-[2rem]">
           <img
             loading="lazy"
@@ -37,12 +37,12 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <div className="sticky top-0 bg-[#fff]">
+      <div className="md:sticky top-0 bg-[#fff]">
         <div>
-          <section className="sticky top-0 h-auto flex-col gap-[2rem]">
+          <section className="md:sticky top-0 h-auto flex-col gap-[2rem]">
             <h1 className="text-regular font-semibold special-text">MMCM</h1>
             <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
-              <div className="flex flex-col justify-between items-center h-full gap-[1.25rem] text-justify">
+              <div className="flex flex-col justify-between items-center h-full gap-[1.25rem] text-start">
                 <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
                   <h3 className="text-regular font-semibold special-text">
                     Vision
@@ -83,11 +83,11 @@ export default function AboutUs() {
               </div>
             </div>
           </section>
-          <div className="sticky top-0 bg-[#f9f9f9]">
+          <div className="md:sticky top-0 bg-[#f9f9f9]">
             <section className="sticky top-0 h-auto flex-col gap-[2rem]">
               <h1 className="text-regular font-semibold special-text">CCIS</h1>
               <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
-                <div className="flex flex-col justify-between items-center text-justify h-full gap-[1.25rem]">
+                <div className="flex flex-col justify-between items-center text-start h-full gap-[1.25rem]">
                   <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
                     <h3 className="text-regular font-semibold special-text">
                       Vision

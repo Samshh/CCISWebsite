@@ -25,7 +25,7 @@ export default function Is() {
           <h1 className="text-regular font-semibold uppercase special-text">
             About
           </h1>
-          <div className="flex flex-col text-justify indent-8 text-regular font-medium gap-[1rem]">
+          <div className="flex flex-col text-start indent-8 text-regular font-medium gap-[1rem]">
             <p>
               The Bachelor of Science in Information Systems program prepares
               students to be IT professionals and the expert on design and
