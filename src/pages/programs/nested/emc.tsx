@@ -13,9 +13,9 @@ export default function Emc() {
         alt="bg"
       />
       <section className="h-auto sticky top-0">
-        <h1 className="text-[#fff] text-center uppercase special-text">
+        <h2 className="text-[#fff] text-center uppercase special-text">
           Entertainment and Multimedia Computing
-        </h1>
+        </h2>
       </section>
       <div className="h-auto sticky top-0 bg-[#fff]">
         <section className="h-auto justify-start flex-col gap-[1.5rem] max-w-[768px]">
