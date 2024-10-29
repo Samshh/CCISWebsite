@@ -74,7 +74,7 @@ export default function Home() {
             <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-[2rem]">
               <Card
                 onClick={() => navigate("/programs/cs")}
-                image="/programs/COMSCI.jpeg"
+                image="/programs/CS.jpg"
                 title="Computer Science"
               >
                 The Bachelor of Science in Computer Science program trains
@@ -84,7 +84,7 @@ export default function Home() {
 
               <Card
                 onClick={() => navigate("/programs/emc")}
-                image="/programs/EMC.jpeg"
+                image="/programs/EMC.jpg"
                 title="Entertainment & Multimedia Computing"
               >
                 The Bachelor of Science in Entertainment and Multimedia
@@ -94,7 +94,7 @@ export default function Home() {
 
               <Card
                 onClick={() => navigate("/programs/is")}
-                image="/programs/IS.jpeg"
+                image="/programs/IS.jpg"
                 title="Information Systems"
               >
                 The Bachelor of Science in Information Systems program prepares

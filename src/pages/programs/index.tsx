@@ -25,7 +25,7 @@ export default function Programs() {
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
                 className="w-[350px] shadow-lg"
-                src="/programs/COMSCI.jpeg"
+                src="/programs/CS.jpg"
                 alt="cs"
               />
               <div className="flex flex-col items-center md:items-start gap-[1rem]">
@@ -50,7 +50,7 @@ export default function Programs() {
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
                 className="w-[350px] shadow-lg"
-                src="/programs/EMC.jpeg"
+                src="/programs/EMC.jpg"
                 alt="cs"
               />
               <div className="flex flex-col items-center md:items-start gap-[1rem]">
@@ -75,7 +75,7 @@ export default function Programs() {
             <div className="flex flex-col md:flex-row justify-start items-center gap-[1rem]">
               <img
                 className="w-[350px] shadow-lg"
-                src="/programs/IS.jpeg"
+                src="/programs/IS.jpg"
                 alt="cs"
               />
               <div className="flex flex-col items-center md:items-start gap-[1rem]">
