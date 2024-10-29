@@ -15,7 +15,7 @@ export default function VideoFrame() {
   };
 
   return (
-    <div onClick={toggleVideoPlayback} className="w-full h-full cursor-pointer flex items-center justify-center shadow-2xl border-red border-2">
+    <div onClick={toggleVideoPlayback} className="w-full h-full cursor-pointer flex items-center justify-center shadow-2xl">
       <iframe
         ref={iframeRef}
         className={`w-full h-full ${

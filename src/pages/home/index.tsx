@@ -62,7 +62,7 @@ export default function Home() {
         <section className="relative">
           <VideoFrame />
           <div className="absolute bottom-16 flex justify-center items-center gap-[0.25rem]">
-            <p className="font-semibold text-regular uppercase">Scroll down</p><div ref={arrowDown}><Icon icon="jam:chevrons-down" className="text-red text-[2rem]"/></div>
+            <p className="font-extrabold text-regular special-text">Scroll down</p><div ref={arrowDown}><Icon icon="jam:chevrons-down" className="text-red text-[2rem]"/></div>
           </div>
         </section>
         <div className="bg-[#fff]">
