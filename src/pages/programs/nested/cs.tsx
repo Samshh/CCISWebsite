@@ -1,6 +1,9 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { Icon } from "@iconify/react";
 
 export default function Cs() {
+  const navigate = useNavigate();
   useEffect(() => {
     document.title = "Computer Science | MMCM CCIS";
   }, []);
@@ -135,6 +138,22 @@ export default function Cs() {
                 engage in an independent and learning for continual development
                 as a computing professionals.
               </p>
+            </div>
+            <div className="w-full flex items-center justify-between mt-[3rem] font-semibold gap-[2rem]">
+              <div
+                onClick={() => navigate("/programs/is")}
+                className="flex items-center cursor-pointer transition-all ease-linear hover:scale-110"
+              >
+                <Icon icon="mingcute:left-fill" className="text-red" />
+                <p>IS</p>
+              </div>
+              <div
+                onClick={() => navigate("/programs/emc")}
+                className="flex items-center cursor-pointer transition-all ease-linear hover:scale-110"
+              >
+                <p>EMC</p>
+                <Icon icon="mingcute:right-fill" className="text-red" />
+              </div>
             </div>
           </section>
         </div>
