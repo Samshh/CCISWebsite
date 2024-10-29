@@ -2,87 +2,87 @@
   "team": [
     {
       "name": "Neil P. Magloyuan",
-      "title": "Master of Computer Engineering",
+      "title": "Master of Computer Engineering,Professional Computer Engineer",
       "email": "npmagloyuan@mcm.edu.ph",
       "position": "CS Program Head",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Dr. Genevieve A. Pilongo",
-      "title": "Doctor of Business Management",
+      "title": "Doctor of Business Management,specialized in Information Systems",
       "email": "gapilongo@mcm.edu.ph",
       "position": "IS Program Head",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Rogelio O. Badiang Jr.",
-      "title": "No title yet",
+      "title": "Doctor of Information Technology",
       "email": "rjobadiang@mcm.edu.ph",
       "position": "EMC Program Head",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Dr. Cherry B. Lisondra",
-      "title": "Doctor of Information Technology",
+      "title": "Doctor of Information Technology (CAR)",
       "email": "cblisondra@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Martzel Baste",
-      "title": "Master of Information Technology, Master of Information Systems",
+      "title": "Master of Information Technology (CAR), Master of Information Systems (CAR)",
       "email": "mbaste@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Christopher Josh Dellosa",
-      "title": "Master of Information Systems",
+      "title": "Master of Information Systems (CAR)",
       "email": "cjldellosa@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Clyde Chester R. Balaman",
-      "title": "No title yet",
+      "title": "PhD in Computer Science (ongoing)",
       "email": "ccrbalaman@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Dr. Patrick D. Cerna",
       "title": "Doctor of Information Technology",
       "email": "pdcerna@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Daisy Ann M. Arzaga",
-      "title": "No title yet",
+      "title": "Master of Information Technology (ongoing)",
       "email": "damarzaga@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Christopher Rey A. Lungay",
-      "title": "BS Information Technology",
+      "title": "Master of Information Systems (CAR)",
       "email": "crlungay@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Mary Grace Sandoval",
-      "title": "No title yet",
+      "title": "Master of Information Technology",
       "email": "mgsandoval@mcm.edu.ph",
       "position": "Faculty",
-      "image": null
+      "image": "/placeholder.png"
     },
     {
       "name": "Robie Bryan Jacaban",
       "title": "BS Information Technology",
       "email": "rbbjacaban@mcm.edu.ph",
       "position": "Technical Assistant",
-      "image": null
+      "image": "/placeholder.png"
     }
   ]
 }
