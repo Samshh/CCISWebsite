@@ -38,6 +38,110 @@ export default function AboutUs() {
         </div>
       </section>
       <div className="sticky top-0 bg-[#fff]">
+        <div>
+          <section className="sticky top-0 h-auto flex-col gap-[2rem]">
+            <h1 className="text-regular font-semibold special-text">MMCM</h1>
+            <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
+              <div className="flex flex-col justify-between items-center h-full gap-[1.25rem] text-justify">
+                <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
+                  <h3 className="text-regular font-semibold special-text">
+                    Vision
+                  </h3>
+                  <p>
+                    Mapúa Malayan Colleges Mindanao stands among the world's
+                    leading educational institutions.
+                  </p>
+                </div>
+                <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
+                  <h3 className="text-regular font-semibold special-text">
+                    Motto
+                  </h3>
+                  <p>Excellence and Relevance</p>
+                </div>
+              </div>
+              <div className="flex flex-col w-full h-full justify-start text-start items-center gap-[1.25rem]">
+                <h3 className="text-regular text-center font-semibold special-text">
+                  Mission
+                </h3>
+                <p>
+                  <span className="text-red">1.</span> The institute shall
+                  provide a learning environment in order for its students to
+                  acquire the attributes that will make them globally
+                  competitive & locally in-demand.
+                </p>
+                <p>
+                  <span className="text-red">2.</span> The institute shall
+                  engage in cutting edge and economically viable research,
+                  development and innovation that is relevant locally and
+                  beyond.
+                </p>
+                <p>
+                  <span className="text-red">3.</span> The institute shall
+                  provide state-of-the-art solutions to problems of industries
+                  and communities locally and beyond.
+                </p>
+              </div>
+            </div>
+          </section>
+          <div className="sticky top-0 bg-[#f9f9f9]">
+            <section className="sticky top-0 h-auto flex-col gap-[2rem]">
+              <h1 className="text-regular font-semibold special-text">CCIS</h1>
+              <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
+                <div className="flex flex-col justify-between items-center text-justify h-full gap-[1.25rem]">
+                  <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
+                    <h3 className="text-regular font-semibold special-text">
+                      Vision
+                    </h3>
+                    <p>
+                      The College of Computer and Information Science (CCIS) of
+                      Mapua MCM will pioneer new approaches to learning and
+                      discovery, igniting a passion for knowledge and equipping
+                      students with the skills to flourish in our dynamic world.
+                    </p>
+                  </div>
+                  <div className="flex flex-col w-full h-full justify-start items-center gap-[1.25rem]">
+                    <h3 className="text-regular font-semibold special-text">
+                      GOALS
+                    </h3>
+                    <p>
+                      The College of Computer and Information Science (CCIS)
+                      aims to integrate/introduce new ideas and approaches
+                      through flexible learning to enhance student learning
+                      experience, acquire the latest tools and technology to
+                      boost student skills and creativity responsive to the
+                      needs of the industry, and leverage international linkages
+                      and partnerships to stand among the globally competitive
+                      professionals.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col w-full h-full justify-start text-start items-center gap-[1.25rem]">
+                  <h3 className="text-regular text-center font-semibold special-text">
+                    Mission
+                  </h3>
+                  <p>
+                    The College of Computer and Information Science (CCIS)
+                    commits itself to the threefold mission in:
+                  </p>
+                  <p>
+                    <span className="text-red">1.</span> promoting a culture of
+                    innovation to enhance student learning experience;
+                  </p>
+                  <p>
+                    <span className="text-red">2.</span> enabling student
+                    knowledge, skill and character development that addresses
+                    the 21st century challenges; and
+                  </p>
+                  <p>
+                    <span className="text-red">3.</span> providing globalized
+                    learning while ensuring continuous improvement and
+                    measurement.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
         <section className="h-auto justify-center flex-col gap-[1.75rem]">
           <h1 className="text-regular font-semibold special-text">
             Meet the Team
@@ -59,49 +163,6 @@ export default function AboutUs() {
           </div>
           <MeetTheTeam />
         </section>
-        <div className="bg-[#f9f9f9]">
-          <section className="h-auto">
-            <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-start justify-center gap-[2rem] max-w-[968px]">
-              <div className="flex flex-col justify-between items-center h-full gap-[2rem]">
-                <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold special-text">
-                    Vision
-                  </h3>
-                  <p>
-                    Mapúa Malayan Colleges Mindanao stands among the world's
-                    leading educational institutions.
-                  </p>
-                </div>
-                <div className="flex flex-col w-full h-full justify-start items-center gap-[1rem]">
-                  <h3 className="text-regular font-semibold special-text">
-                    Motto
-                  </h3>
-                  <p>Excellence and Relevance</p>
-                </div>
-              </div>
-              <div className="flex flex-col w-full h-full justify-start text-start items-center gap-[1rem]">
-                <h3 className="text-regular text-center font-semibold special-text">
-                  Mission
-                </h3>
-                <p>
-                  <span className="text-red">1.</span> The institute shall
-                  provide a learning environment in order for its students to
-                  acquire the attributes that will make them globally
-                  competitive & locally in-demand. <br />
-                  <br />
-                  <span className="text-red">2.</span> The institute shall
-                  engage in cutting edge and economically viable research,
-                  development and innovation that is relevant locally and
-                  beyond. <br />
-                  <br />
-                  <span className="text-red">3.</span> The institute shall
-                  provide state-of-the-art solutions to problems of industries
-                  and communities locally and beyond.
-                </p>
-              </div>
-            </div>
-          </section>
-        </div>
       </div>
     </div>
   );

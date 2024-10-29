@@ -19,7 +19,9 @@ export default function Emc() {
       </section>
       <div className="h-auto sticky top-0 bg-[#fff]">
         <section className="h-auto justify-start flex-col gap-[1.5rem] max-w-[768px]">
-          <h1 className="text-regular font-semibold uppercase special-text">About</h1>
+          <h1 className="text-regular font-semibold uppercase special-text">
+            About
+          </h1>
           <div className="flex flex-col text-justify text-regular font-medium gap-[1rem]">
             <p className="indent-8">
               The Bachelor of Science in Entertainment and Multimedia Computing

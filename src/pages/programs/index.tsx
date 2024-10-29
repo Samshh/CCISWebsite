@@ -33,7 +33,7 @@ export default function Programs() {
                   <h4 className="text-regular text-center md:text-start uppercase font-semibold">
                     BS Computer Science
                   </h4>
-                  <p className="max-w-[600px] text-justify">
+                  <p className="max-w-[600px] text-start">
                     The Bachelor of Science in Computer Science program prepares
                     students to become computer scholars equipped with the
                     complete tools in planning, organizing, researching,
@@ -56,9 +56,9 @@ export default function Programs() {
               <div className="flex flex-col items-center md:items-start gap-[1rem]">
                 <div>
                   <h4 className="text-regular text-center md:text-start uppercase font-semibold">
-                    BS Entertainment and Multimedia Computing
+                    BS Entertainment & Multimedia Computing
                   </h4>
-                  <p className="max-w-[600px] text-justify">
+                  <p className="max-w-[600px] text-start">
                     The Bachelor of Science in Entertainment and Multimedia
                     Computing specialized in Game Development program prepares
                     students to become game development professionals with
@@ -83,7 +83,7 @@ export default function Programs() {
                   <h4 className="text-regular text-center md:text-start uppercase font-semibold">
                     BS Information Systems
                   </h4>
-                  <p className="max-w-[600px] text-justify">
+                  <p className="max-w-[600px] text-start">
                     The Bachelor of Science in Information Systems program
                     prepares students to be IT professionals and the expert on
                     design and implementation of Information Systems for

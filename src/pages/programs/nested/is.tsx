@@ -94,7 +94,7 @@ export default function Is() {
               </p>
               <p>
                 <span className="text-red">5.</span> Use knowledge and
-                understanding of enterprises in modeling and design of
+                understanding of enterprises in modelling and design of
                 information systems.
               </p>
               <p>
@@ -121,8 +121,8 @@ export default function Is() {
               </p>
               <p>
                 <span className="text-red">10.</span> Recognize the need for and
-                engage in an independent and life-long learning, planning
-                self-learning, and improving performance as the foundation for
+                engage in an independent and life-long learning, planning self
+                learning, and improving performance as the foundation for
                 on-going professional development.
               </p>
             </div>
